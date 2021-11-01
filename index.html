@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitApiApp4Futu</title>
+    <link rel="stylesheet" href="styles.css"> </link>
+</head>
+
+<body>
+  
+    
+    <div class="container">
+        <br><br>
+        <h1 style="text-align: center;">
+            Github User Search App
+        </h1>
+
+        <form id="myForm" onsubmit="event.preventDefault();" role="search">
+            <label for="search">Search Users</label>
+            <input id="search" type="search" placeholder="Search..." autofocus required />
+            <button type="submit">Go</button>    
+        </form>
+
+        <div class="form-group">
+            <button class="btn btn-danger btn-block">
+                Search Projects
+            </button>
+        </div>
+             <div id="result"></div>
+
+            <h5 style="text-align: center;">
+            Click image to visit user's profile! 
+            </h5>
+                
+    </div>
+
+</body>
+
+<script 
+src="script.js">
+</script>
+
+</html>

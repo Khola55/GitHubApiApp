@@ -1,0 +1,69 @@
+
+    body {
+        background: #e6b1d6;
+        background-image: url("graph.png");
+        display: flex;
+        align-items: top;
+        justify-content: center;   
+    }
+    html {
+        box-sizing: border-box;
+        height: 100%;
+        font-size:13px;
+        font-family: "Didot";
+        font-weight: bold;
+    }
+    h1 {
+        display: block;
+        font-size: 5em;
+
+    }
+    form {
+        position: relative;
+        width: 30rem;
+        background: none;    
+    }
+    input, button {
+        height: 2rem;
+        border: 0;
+        color: #000000;
+        font-size: 1.8rem;
+    }
+    input[type="search"] {
+        outline: 0;
+        width: 150%;
+        background: #ffb3aa6c;
+        padding: 0 1.6rem;
+        appearance: none;
+        transition-property: width, border-radius;
+        position: relative;
+    }
+    button {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5rem;
+        background: #ffb3aa6c;    
+    }
+    input:not(:placeholder-shown) {
+        width: 20rem;
+    }
+    input:not(:placeholder-shown) + button {
+        display: block;
+    }
+    label {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0;
+        border: 0;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+    }
+    h5 {
+        display: block;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: bottom;
+    }
